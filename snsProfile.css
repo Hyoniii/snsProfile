@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 600px;
+  width: 350px;
+  border: 5px solid blue;
+  background-image: url("zendaya.jpg");
+  background-size: cover;
+  z-index: -1;
+}
+.main__back {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+
+.column {
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mid-icons {
+  font-size: 20px;
+  color: rgb(122, 122, 122);
+}
+
+.mid-profile {
+  height: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Indie Flower";
+}
+.mid-img {
+  height: 100px;
+  width: 90px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.mid-name {
+  font-size: 30px;
+  margin: 5px;
+  color: #012c53;
+  font-weight: bold;
+}
+.mid-select {
+  height: 70px;
+  margin: 20px;
+}
+
+.other-columns {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  font-family: "Indie Flower";
+}
+.select-follow {
+  height: 40px;
+  width: 40%;
+  border-radius: 20px;
+  font-size: 24px;
+  text-align: center;
+  background-color: papayawhip;
+  color: rgb(122, 122, 122);
+}
+.select-message {
+  height: 40px;
+  width: 40%;
+  border-radius: 20px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #2a9afa;
+  color: aliceblue;
+}
+.mid-other {
+  color: rgba(84, 85, 85, 0.562);
+  font-size: 15px;
+}
+.num {
+  text-align: center;
+}
+.main__bottom {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0px;
+  font-size: 30px;
+  color: rgba(84, 85, 85, 0.562);
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
